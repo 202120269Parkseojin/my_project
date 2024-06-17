@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #083323;
+}
+
+.card1 {
+  color: white;
+}
+
+.card2 > * {
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: white;
+}
+
+h1 {
+  padding-inline: 50px;
+  padding-top: 50px;
+}
+
+h3 {
+  max-width: 200px;
+  padding: 50px;
+}
+
+img {
+  max-width: 250px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.card_title {
+  max-width: 90px;
+}
+
+.card_text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+}
+
+.title {
+  font-size: 40px;
+}
