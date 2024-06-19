@@ -4,6 +4,14 @@
   margin: 0;
 }
 
+.top__container_img {
+  max-width: 100px;
+}
+
+.top__container {
+  text-align: center;
+}
+
 h1 {
   padding: 30px;
   text-align: center;
