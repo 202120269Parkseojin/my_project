@@ -126,3 +126,19 @@ body {
 
 .color {
 }
+
+.bottom_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-color: #979797;
+}
+
+.bottom_container_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.small_text {
+  padding-bottom: 25px;
+}
